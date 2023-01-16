@@ -1,0 +1,74 @@
+.banner {
+    color: white;
+    object-fit: contain;
+    height: 448px;
+    cursor: pointer;
+}
+.banner__contents {
+    margin-left: 30px;
+    padding-top: 140px;
+    height: 190px;
+}
+.banner__title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+.banner__description {
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 80px;
+}
+
+.banner__button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    outline-width: 15px;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding:0.5rem 2rem ;
+    margin-right: 1rem;
+    background-color: rgba(10, 10, 10, 0.208);
+}
+
+.banner__button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+ 
+    transition: all 0.2s;
+}
+
+.banner__fadeBottom {
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,
+            transparent,
+            rgb(37, 37, 37, 0.61),
+            #111 );
+}
+/* h1{
+    height: 300px;
+    background: linear-gradient(green,yellow,red);
+} */
+.banner__youTube{
+    /* position: fixed; */
+    /* margin-top: -300px; */
+}
+.banner__moreInfo{
+    background-color: rgb(240, 131, 224);
+    color: rgb(5, 0, 0);
+    width: 400px;
+   /* position: fixed; */
+   /* top: 43%; */
+   /* right: 2%; */
+   text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    margin:  0 auto;
+    border:1px solid #000;
+    /* border-radius:  10px; */
+  
+}
